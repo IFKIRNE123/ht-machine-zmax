@@ -1,9 +1,9 @@
 import streamlit as st
 
-st.title("Calcul de la hauteur machine au Zmax")
+st.title("Calcul de la hauteur max de la machine autorisée en zmax")
 
 st.write("""
-Cette application calcule la **hauteur maximale de survol (Ht machine au Zmax)** en mètres,
+Cette application calcule la **hauteur maximale autorisée d'une éolienne (Ht machine au Zmax)** en mètres,
 en fonction du plafond (en pieds), de l'altitude max du terrain (en mètres),
 et éventuellement de l'altitude de l'aérodrome (AD) si connue.
 """)
